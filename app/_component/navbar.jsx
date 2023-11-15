@@ -88,20 +88,10 @@ const NavBar = () => {
                     </Link>
                   </nav>
                 </div>
-
-                {/* iki onok register */}
               </div>
             </div>
           </Popover.Panel>
         </Transition>
-        <div className="hidden sm:block">
-          <Link href="#" className="mr-2 font-bold">
-            SignUp
-          </Link>
-          <Link href="#" className="mr-2 font-bold">
-            SignUp
-          </Link>
-        </div>
       </Popover>
     </div>
   );

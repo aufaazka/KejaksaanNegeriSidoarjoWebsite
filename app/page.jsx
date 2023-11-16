@@ -16,18 +16,18 @@ import BeritaImage from "../public/berita.jpg";
 import NavBar from "./_component/navbar";
 import Link from "next/link";
 import Footer from "./_component/footer";
+import Carousel from "./_component/carousel";
 
 function page() {
   return (
     <>
-      <div class="bg-white">
-        {/* NavBar */}
-        <NavBar />
-
-        {/* End Of NavBar */}
+    <div class="bg-white">
+      <NavBar />
+      
+        <Carousel />
 
         {/* Bacground Dashboard */}
-        <Image src={DasboardImage} alt="" className="w-full mt-69 lg:mt-0" />
+        {/* <Image src={DasboardImage} alt="" className="w-full mt-69 lg:mt-0" /> */}
 
         {/* End Of Background Dashboard */}
 

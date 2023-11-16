@@ -15,7 +15,7 @@ const Footer = () => {
               class="inline-flex items-center"
             >
               <Image
-              className="mr-3"
+                className="mr-3"
                 src="/jaksa.png"
                 alt="LogoKejaksaan"
                 width="50"
@@ -44,7 +44,7 @@ const Footer = () => {
                 title="Our phone"
                 class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-               0813-3387-4610
+                0813-3387-4610
               </a>
             </div>
             <div class="flex">
@@ -65,7 +65,7 @@ const Footer = () => {
             </span>
             <div class="flex items-center mt-1 space-x-3">
               <a
-                href="/"
+                href="https://twitter.com/kejarisidoarjo"
                 class="text-gray-800 transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
@@ -73,7 +73,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="/"
+                href="https://www.instagram.com/kejarisidoarjo/"
                 class="text-gray-800 transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
                 <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
@@ -82,7 +82,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="/"
+                href="https://www.facebook.com/kejaksaan.sidoarjo"
                 class="text-gray-800 transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
@@ -90,11 +90,16 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="/"
+                href="https://www.youtube.com/@kejarisidoarjo9696"
                 class="text-gray-800 transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
-                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
-                  <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-4.243-2.828a1.5 1.5 0 010 2.121L14.172 12l2.586 2.828a1.5 1.5 0 01-2.121 2.121L12 14.172l-2.828 2.586a1.5 1.5 0 01-2.121-2.121L9.828 12 7.243 9.172a1.5 1.5 0 012.121-2.121L12 9.828l2.828-2.586a1.5 1.5 0 012.121 2.121L14.172 12z"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
                 </svg>
               </a>
             </div>

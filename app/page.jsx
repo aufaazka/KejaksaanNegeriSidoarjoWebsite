@@ -160,6 +160,23 @@ function page() {
               </a>
             </div>
           </div>
+
+          <div class="w-[155px] md:w-[308px] mx-auto bg-white transition duration-300 transform hover:-translate-y-1 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="https://halojpn.id/">
+              <Image class="rounded-lg" src={BlowingImage} alt="" />
+            </a>
+            <div class="p-4 md:p-5">
+              <a href="https://sipp.pn-sidoarjo.go.id/">
+                <h5 class="mb-1 text-sm md:text-md lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  SIPP Sidoarjo
+                </h5>
+
+                <p class="text-[12px] md:text-sm lg:font-normal text-gray-700 dark:text-gray-400">
+                  Akses informasi sidang terkini Pengadilan Sidoarjo
+                </p>
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* End Of Grid+Card Layanan Kejaksaan Negeri Sidoarjo */}
